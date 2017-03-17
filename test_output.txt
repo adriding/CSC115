@@ -1,0 +1,61 @@
+MazeTester.java is program contains six tests that will test the program Maze.java. It will compare the expect result and the true result 
+that outputed by the Maze.java to see if they are the same or not. If they are the same, the test will be passed, if not, the test will be
+failed. 
+
+Test1:
+* ****
+*    *
+* ** *
+**** *
+Test(horizonal path): passed
+
+Test2:
+** *** *
+*   ** *
+* *    *
+********
+Test(horizonal path): passed
+
+Test3:
+** *******
+*    *   *
+* ** *** *
+*  *     *
+******** *
+Test(horizonal path): passed
+
+Test4:
+****** ******
+*   ** *    *
+* * ** **** *
+* * **      *
+* * ** *** **
+  *    *   **
+*************
+Test(horizonal path): passed
+
+Test5:
+********** ****
+*******       *
+    * * ** ****
+*** *   **    *
+* * ****** ** *
+* * *      ** *
+*     ******  *
+***************
+Test(horizonal path): passed
+
+Test6:
+*******************
+************     **
+          ***** ***
+***** *** **       
+*     *** ** **** *
+* ******* ** *  * *
+* *       ** * ** *
+* * *** **** * ** *
+* * ***    * * ** *
+* * ******** *    *
+* *          **** *
+*******************
+Test(horizonal path): passed
